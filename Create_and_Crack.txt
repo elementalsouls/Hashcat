@@ -1,0 +1,38 @@
+for i in $(cat default.txt); do echo $i; echo ${i}2019; echo ${i}2020; echo ${i}2021; echo ${i}2022; echo ${i}@2019; echo ${i}@2020; echo ${i}@2021; echo ${i}@2022; echo ${i}@123; echo ${i}@1234; echo ${i}@12345; echo ${i}@20; echo ${i}@21; echo ${i}@22; echo ${i}@23; echo ${i}@24; echo ${i}@25; echo ${i}@26; echo ${i}@27; echo ${i}@28; echo ${i}@29; echo ${i}@30; echo ${i}@Newcorp; echo ${i}@newcorp; echo ${i}@newc0rp; echo ${i}\!; done
+
+
+
+hashcat --force <wordlist> --stdout -r /usr/share/hashcat/rules/best64.rule -r /usr/share/hashcat/rules/toggles1.rule | sort -u > semifinal_list.txt
+
+
+cat default.txt newwordlist.txt semifinal.txt > final.txt cat final.txt | sort -u > t 
+mv t final.txt 
+cat final.txt| wc -l
+
+January 
+February 
+March 
+April 
+May 
+June 
+July 
+August 
+September 
+October 
+November 
+December 
+Autum 
+Fall 
+Spring 
+Winter 
+Summer 
+12345678 
+Welcome 
+2018 
+2019 
+2020 
+2021 
+2022 
+2023 
+1947 
+1950
